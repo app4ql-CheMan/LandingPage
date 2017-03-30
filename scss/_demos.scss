@@ -1,0 +1,82 @@
+.demo {
+    position: relative;
+
+    background: url('../assets/images/demo/Genie.png') no-repeat center top;
+    background-size: auto 100%;
+    background-attachment: fixed;
+
+    text-align: center;
+
+    @media screen and (min-width: 1630px) {
+        background-size: 100% auto;
+    }
+
+    .hero-container {
+        margin: 100px 0;
+    }
+
+    .hero-title {
+        color: #4169E1;
+
+        font-family: $header-font;
+
+        text-transform: uppercase;
+    }
+
+    .hero-title-l1 {
+
+        font-size: 65px;
+    }
+
+    .hero-title-l2 {
+
+        #FFD700;
+        margin-top: 10px;
+
+        font-size: 28px;
+    }
+
+    .hero-title-highlight {
+        color: $brand-primary;
+    }
+
+    .hero-buttons {
+        margin-top: 50px;
+
+        input {
+            width: 300px;
+            height: 40px;
+
+            padding: 0 15px;
+
+            line-height: 40px;
+        }
+
+        .btn-default {
+            height: 40px;
+
+            padding: 0 15px;
+        }
+    }
+
+    .demo2 {
+        margin: auto;
+    }
+
+    .feature-title-icon {
+        margin-right: 5px;
+
+        border: 2px solid $brand-primary;
+
+        font-size: 25px;
+
+        transition-duration: 1s;
+
+        @include icon-radius($feature-title-height); 
+
+        .fa {
+            top: -3px;
+        }
+    }
+
+}
